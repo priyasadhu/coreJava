@@ -15,6 +15,7 @@ public class WebPageTest {
 		driver.get("http://google.com");
 		String title = driver.getTitle();
 		System.out.println("Title=" + title);
+		System.out.println("URL is: " + driver.getCurrentUrl());
 		driver.close();
 	}
 

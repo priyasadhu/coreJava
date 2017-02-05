@@ -16,6 +16,7 @@ public class WebPageTest {
 		String title = driver.getTitle();
 		System.out.println("Title=" + title);
 		System.out.println("URL is: " + driver.getCurrentUrl());
+		System.out.println("Test Passed");
 		driver.close();
 	}
 
